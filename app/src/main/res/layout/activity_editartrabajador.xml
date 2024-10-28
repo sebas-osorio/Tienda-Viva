@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context=".Editartrabajador">
+
+    <EditText
+        android:id="@+id/textosiembra1indica"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/sincambios"
+        android:textAlignment="gravity"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/spinnersiembraadmin"
+        app:layout_constraintStart_toStartOf="@+id/spinnersiembraadmin" />
+
+    <EditText
+        android:id="@+id/textofertindica"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/sincambios"
+        android:textAlignment="gravity"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/spinnerfertadmin"
+        app:layout_constraintStart_toStartOf="@+id/spinnerfertadmin" />
+
+    <Spinner
+        android:id="@+id/spinnerfertadmin"
+        android:layout_width="260dp"
+        android:layout_height="35dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/spinnerbichosadmin" />
+
+    <Spinner
+        android:id="@+id/spinnersiembraadmin"
+        android:layout_width="260dp"
+        android:layout_height="35dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+        app:layout_constraintStart_toStartOf="@+id/spinnerbichosadmin" />
+
+    <Spinner
+        android:id="@+id/spinnerbichosadmin"
+        android:layout_width="260dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="24dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logobichos" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/logofertilizar" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/logoregar" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="45dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:srcCompat="@drawable/logosiembra" />
+
+    <Button
+        android:id="@+id/botonrecolectar1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/botonactualizar"
+        android:onClick="recolectar1"
+        android:text="@string/Recolectar1"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <Button
+        android:id="@+id/botontareas"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:background="@drawable/botonactualizar"
+        android:onClick="recolectar2"
+        android:text="@string/Recolectar2"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/botonrecolectar1"
+        app:layout_constraintTop_toTopOf="@+id/botonrecolectar1" />
+
+    <Button
+        android:id="@+id/botonpublicar"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/botonterminar"
+        android:onClick="clickEditar"
+        android:text="@string/Publicar"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botontareas" />
+
+    <EditText
+        android:id="@+id/textobichosindica"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/sincambios"
+        android:textAlignment="gravity"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/spinnerbichosadmin"
+        app:layout_constraintStart_toStartOf="@+id/spinnerbichosadmin" />
+
+    <EditText
+        android:id="@+id/textoagua2"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/sincambios"
+        android:textAlignment="gravity"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/spinnerfertadmin"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerfertadmin" />
+
+    <EditText
+        android:id="@+id/textosiembra2indica"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/sincambios"
+        android:textAlignment="gravity"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/spinnersiembraadmin"
+        app:layout_constraintTop_toBottomOf="@+id/spinnersiembraadmin" />
+
+    <Switch
+        android:id="@+id/switchregar"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:text="@string/Regar"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/textoagua2"
+        app:layout_constraintTop_toBottomOf="@+id/textoagua2" />
+
+
+
+    <Spinner
+        android:id="@+id/spinnersiembra2admin"
+        android:layout_width="260dp"
+        android:layout_height="35dp"
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/textosiembra2indica"
+        app:layout_constraintTop_toBottomOf="@+id/textosiembra2indica" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/logosiembra" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:background="@color/teal_700"
+        android:textColor="@android:color/holo_green_light"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/editatrabajador"
+        android:textAlignment="center"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

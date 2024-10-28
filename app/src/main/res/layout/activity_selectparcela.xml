@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imagenparcelas"
+    android:rotation="0"
+    android:scaleX="1"
+    android:scaleY="1"
+    tools:context=".Selectparcela">
+
+    <TextView
+        android:id="@+id/parcelas"
+        android:layout_width="410dp"
+        android:layout_height="50dp"
+        android:textSize="30sp"
+        android:background="@color/black"
+        android:text="@string/parcelas"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/parcela9"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_color"
+        android:onClick="parce9"
+        android:text="@string/parcela.9"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/parcela8"
+        app:layout_constraintTop_toBottomOf="@+id/parcela8" />
+
+    <Button
+        android:id="@+id/parcela1"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="264dp"
+        android:background="@drawable/btn_color"
+        android:onClick="parce1"
+        android:text="@string/parcela.1"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/parcela2"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btn_color"
+        android:onClick="parce2"
+        android:text="@string/parcela.2"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/parcela1"
+        app:layout_constraintTop_toBottomOf="@+id/parcela1" />
+
+    <Button
+        android:id="@+id/parcela3"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btn_color"
+        android:onClick="parce3"
+        android:text="@string/parcela.3"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/parcela1"
+        app:layout_constraintTop_toBottomOf="@+id/parcela2" />
+
+    <Button
+        android:id="@+id/parcela4"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:textSize="20sp"
+        android:layout_marginTop="24dp"
+        android:textStyle="bold"
+        android:background="@drawable/btn_color"
+        android:onClick="parce4"
+        android:text="@string/parcela.4"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/parcela1"
+        app:layout_constraintTop_toBottomOf="@+id/parcela3" />
+
+    <Button
+        android:id="@+id/parcela5"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btn_color"
+        android:onClick="parce5"
+        android:text="@string/parcela.5"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/parcela1"
+        app:layout_constraintTop_toBottomOf="@+id/parcela4" />
+
+    <Button
+        android:id="@+id/parcela6"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btn_color"
+        android:onClick="parce6"
+        android:text="@string/parcela.6"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/parcela1"
+        app:layout_constraintTop_toBottomOf="@+id/parcela5" />
+
+    <Button
+        android:id="@+id/parcela7"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="212dp"
+        android:textStyle="bold"
+        android:layout_marginEnd="76dp"
+        android:background="@drawable/btn_color"
+        android:onClick="parce7"
+        android:text="@string/parcela.7"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/parcela8"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_color"
+        android:onClick="parce8"
+        android:textStyle="bold"
+        android:text="@string/parcela.8"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/parcela7"
+        app:layout_constraintTop_toBottomOf="@+id/parcela7" />
+
+    <Button
+        android:id="@+id/parcela10"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_color"
+        android:onClick="parce10"
+        android:text="@string/parcela.10"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/parcela9"
+        app:layout_constraintTop_toBottomOf="@+id/parcela9" />
+
+    <Button
+        android:id="@+id/parcela11"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_color"
+        android:onClick="parce11"
+        android:text="@string/parcela.11"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/parcela10"
+        app:layout_constraintTop_toBottomOf="@+id/parcela10" />
+
+    <Button
+        android:id="@+id/parcela12"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_color"
+        android:onClick="parce12"
+        android:text="@string/parcela.12"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/parcela11"
+        app:layout_constraintTop_toBottomOf="@+id/parcela11" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

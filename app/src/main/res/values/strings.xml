@@ -1,0 +1,140 @@
+<resources>
+    <string name="ingresecuenta">Usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="app_name">Tienda viva</string>
+    <string name="parcela.1">1</string>
+    <string name="parcela.2">2</string>
+    <string name="parcela.3">3</string>
+    <string name="parcela.4">4</string>
+    <string name="parcela.5">5</string>
+    <string name="parcela.6">6</string>
+    <string name="parcela.7">7</string>
+    <string name="parcela.8">8</string>
+    <string name="parcela.9">9</string>
+    <string name="parcela.10">10</string>
+    <string name="parcela.11">11</string>
+    <string name="parcela.12">12</string>
+    <string name="parcelas">PARCELAS</string>
+    <string name="Recolectar1">Recolectar 1</string>
+    <string name="Recolectar2">Recolectar 2</string>
+    <string name="Cultivo">Cultivo</string>
+    <string name="Publicar">Publicar</string>
+    <string name="Administrador">Administrador</string>
+    <string name="Trabajador">Trabajador</string>
+    <string name="Regar">Regar</string>
+    <string name="Actualizar">Actualizar</string>
+    <string name="Salir">Salir</string>
+    <string name="sincambios">Sin cambios</string>
+    <string name="indicar">Indicar</string>
+    <string name="Ninguna">ninguna</string>
+    <string name="Tareas">TAREAS</string>
+    <string name="regresar">REGRESAR</string>
+    <string name="Indicaciones">INDICACIONES</string>
+    <string name="informacion">ESTADO DE SURCO</string>
+    <string name="editaadmin">INGRESE LAS INDICACIONES</string>
+    <string name="editatrabajador">INGRESE LAS ACTIVIDADES HECHAS</string>
+    <string name="Hecha">Listo</string>
+    <string name="Reportar">REPORTAR</string>
+
+
+
+
+    <string-array name="seleccionarpreventivo">
+        <item>Sin preventiivo</item>
+        <item>Ortiga</item>
+        <item>Sulfocalcio</item>
+        <item>Compost</item>
+    </string-array>
+
+    <string-array name="seleccionarpreventivoadmin">
+        <item>ninguna</item>
+        <item>Ortiga</item>
+        <item>Sulfocalcio</item>
+        <item>Compost</item>
+    </string-array>
+
+    <string-array name="seleccionarfertilizante">
+        <item>Sin fertilizar</item>
+        <item>Compostaje</item>
+        <item>Lixiviado</item>
+    </string-array>
+
+    <string-array name="seleccionarfertilizanteadmin">
+        <item>ninguno</item>
+        <item>Compostaje</item>
+        <item>Lixiviado</item>
+    </string-array>
+
+    <string-array name="seleccionarsiembra1">
+        <item>Sin cultivo</item>
+        <item>Ají</item>
+        <item>Tomate</item>
+        <item>Tomate perita</item>
+        <item>Jamaica</item>
+        <item>Cebolla</item>
+        <item>Frijol</item>
+        <item>Trigo</item>
+        <item>Pimenton</item>
+        <item>Col</item>
+        <item>Cebollin</item>
+        <item>Cilantro</item>
+        <item>Sachainohi</item>
+
+    </string-array>
+
+    <string-array name="seleccionarsiembra1admin">
+        <item>ninguna</item>
+        <item>Ají</item>
+        <item>Tomate</item>
+        <item>Tomate perita</item>
+        <item>Jamaica</item>
+        <item>Cebolla</item>
+        <item>Frijol</item>
+        <item>Trigo</item>
+        <item>Pimenton</item>
+        <item>Col</item>
+        <item>Cebollin</item>
+        <item>Cilantro</item>
+        <item>Sachainohi</item>
+
+    </string-array>
+
+    <string-array name="seleccionarsiembra2">
+        <item>Sin cultivo</item>
+        <item>Ají</item>
+        <item>Tomate</item>
+        <item>Tomate perita</item>
+        <item>Jamaica</item>
+        <item>Cebolla</item>
+        <item>Frijol</item>
+        <item>Trigo</item>
+        <item>Pimenton</item>
+        <item>Col</item>
+        <item>Cebollin</item>
+        <item>Cilantro</item>
+        <item>Sachainohi</item>
+
+    </string-array>
+
+    <string-array name="seleccionarsiembra2admin">
+        <item>ninguna</item>
+        <item>Ají</item>
+        <item>Tomate</item>
+        <item>Tomate perita</item>
+        <item>Jamaica</item>
+        <item>Cebolla</item>
+        <item>Frijol</item>
+        <item>Trigo</item>
+        <item>Pimenton</item>
+        <item>Col</item>
+        <item>Cebollin</item>
+        <item>Cilantro</item>
+        <item>Sachainohi</item>
+
+    </string-array>
+
+    <string name="title_activity_informacionborrador">Informacionborrador</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+</resources>

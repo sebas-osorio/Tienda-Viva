@@ -1,0 +1,40 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/sheba/AndroidStudioProjects/Loginhuerta/app/src/main/res/drawable/botonparcelas.xml" value="0.29" />
+        <entry key="..\:/Users/sheba/AndroidStudioProjects/Loginhuerta/app/src/main/res/drawable/botonrecolectar.xml" value="0.2945" />
+        <entry key="..\:/Users/sheba/AndroidStudioProjects/Loginhuerta/app/src/main/res/drawable/botonsurcostyle.xml" value="0.2945" />
+        <entry key="..\:/Users/sheba/AndroidStudioProjects/Loginhuerta/app/src/main/res/drawable/botonterminar.xml" value="0.2945" />
+        <entry key="..\:/Users/sheba/AndroidStudioProjects/Loginhuerta/app/src/main/res/drawable/btn_color.xml" value="0.2985" />
+        <entry key="..\:/Users/sheba/AndroidStudioProjects/Loginhuerta/app/src/main/res/drawable/buttonstyle.xml" value="0.2945" />
+        <entry key="..\:/Users/sheba/AndroidStudioProjects/Loginhuerta/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2945" />
+        <entry key="..\:/Users/sheba/AndroidStudioProjects/Loginhuerta/app/src/main/res/drawable/splashscreen.xml" value="0.2945" />
+        <entry key="..\:/Users/sheba/AndroidStudioProjects/Loginhuerta/app/src/main/res/drawable/texto_entrada.xml" value="0.2985" />
+        <entry key="..\:/Users/sheba/AndroidStudioProjects/Loginhuerta/app/src/main/res/layout/activity_Indicaciones.xml" value="0.25" />
+        <entry key="..\:/Users/sheba/AndroidStudioProjects/Loginhuerta/app/src/main/res/layout/activity_editaradmin.xml" value="0.33" />
+        <entry key="..\:/Users/sheba/AndroidStudioProjects/Loginhuerta/app/src/main/res/layout/activity_editartrabajador.xml" value="0.33" />
+        <entry key="..\:/Users/sheba/AndroidStudioProjects/Loginhuerta/app/src/main/res/layout/activity_indicaciones.xml" value="0.33" />
+        <entry key="..\:/Users/sheba/AndroidStudioProjects/Loginhuerta/app/src/main/res/layout/activity_informacion.xml" value="0.33" />
+        <entry key="..\:/Users/sheba/AndroidStudioProjects/Loginhuerta/app/src/main/res/layout/activity_ingresar.xml" value="0.33" />
+        <entry key="..\:/Users/sheba/AndroidStudioProjects/Loginhuerta/app/src/main/res/layout/activity_ingresodatos.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/sheba/AndroidStudioProjects/Loginhuerta/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/sheba/AndroidStudioProjects/Loginhuerta/app/src/main/res/layout/activity_select_surco.xml" value="0.33" />
+        <entry key="..\:/Users/sheba/AndroidStudioProjects/Loginhuerta/app/src/main/res/layout/activity_selectparcela.xml" value="0.33" />
+        <entry key="..\:/Users/sheba/AndroidStudioProjects/Loginhuerta/app/src/main/res/layout/activity_splashscreen.xml" value="0.33" />
+        <entry key="..\:/Users/sheba/AndroidStudioProjects/Loginhuerta/app/src/main/res/layout/fragment_informacionborrador.xml" value="0.33125" />
+        <entry key="..\:/Users/sheba/AndroidStudioProjects/Loginhuerta/app/src/main/res/layout/list_item1.xml" value="0.33" />
+        <entry key="..\:/Users/sheba/AndroidStudioProjects/Loginhuerta/app/src/main/res/menu/menusiembra.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/sheba/AndroidStudioProjects/loginhuerta/app/src/main/res/drawable/btn_color.xml" value="0.2985" />
+        <entry key="..\:/Users/sheba/AndroidStudioProjects/loginhuerta/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2985" />
+        <entry key="..\:/Users/sheba/AndroidStudioProjects/loginhuerta/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

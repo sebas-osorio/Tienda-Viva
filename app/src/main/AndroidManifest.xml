@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.oso.loginhuerta">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logohuerta"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logohuerta_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name="com.oso.loginhuerta.Indicaciones"
+            android:exported="false" />
+        <activity
+            android:name="com.oso.loginhuerta.Editaradmin"
+            android:exported="false" />
+        <activity
+            android:name="com.oso.loginhuerta.ui.main.Editaradmin"
+            android:exported="false" />
+        <activity
+            android:name="com.oso.loginhuerta.Editartrabajador"
+            android:exported="false" />
+        <activity
+            android:name="com.oso.loginhuerta.Informacionborrador"
+            android:exported="false"
+            android:label="@string/title_activity_informacionborrador"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="com.oso.loginhuerta.Informacion"
+            android:exported="false" />
+        <activity
+            android:name="com.oso.loginhuerta.SelectSurco"
+            android:exported="false" />
+        <activity
+            android:name="com.oso.loginhuerta.Ingresar"
+            android:exported="false" />
+        <activity
+            android:name="com.oso.loginhuerta.Selectparcela"
+            android:exported="false" />
+        <activity
+            android:name="com.oso.loginhuerta.MainActivity"
+            android:exported="false"/>
+        <activity
+            android:name="com.oso.loginhuerta.Splashscreen"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context=".Editaradmin">
+
+    <EditText
+        android:id="@+id/textosiembra1indica"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/Ninguna"
+        android:textAlignment="gravity"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/spinnersiembraadmin"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerfertadmin" />
+
+    <EditText
+        android:id="@+id/textofertindica"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/Ninguna"
+        android:textAlignment="gravity"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/spinnerfertadmin"
+        app:layout_constraintStart_toStartOf="@+id/spinnerfertadmin" />
+
+    <Spinner
+        android:id="@+id/spinnerfertadmin"
+        android:layout_width="260dp"
+        android:layout_height="35dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/spinnerbichosadmin" />
+
+    <Spinner
+        android:id="@+id/spinnersiembraadmin"
+        android:layout_width="260dp"
+        android:layout_height="35dp"
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/spinnerbichosadmin"
+        app:layout_constraintTop_toBottomOf="@+id/textosiembra1indica" />
+
+    <Spinner
+        android:id="@+id/spinnerbichosadmin"
+        android:layout_width="260dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="24dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logobichos" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/logofertilizar" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/logosiembra" />
+
+    <Button
+        android:id="@+id/botonpublicar"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="655dp"
+        android:background="@drawable/botonterminar"
+        android:onClick="clickEditaradmin"
+        android:text="@string/indicar"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/textobichosindica"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/Ninguna"
+        android:textAlignment="gravity"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/spinnerbichosadmin"
+        app:layout_constraintStart_toStartOf="@+id/spinnerbichosadmin" />
+
+    <EditText
+        android:id="@+id/textosiembra2indica"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/Ninguna"
+        android:textAlignment="gravity"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/spinnersiembraadmin"
+        app:layout_constraintTop_toBottomOf="@+id/spinnersiembraadmin" />
+
+
+    <Spinner
+        android:id="@+id/spinnersiembra2admin"
+        android:layout_width="260dp"
+        android:layout_height="35dp"
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/textosiembra2indica"
+        app:layout_constraintTop_toBottomOf="@+id/textosiembra2indica" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/logosiembra" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:background="@color/teal_700"
+        android:textColor="@android:color/holo_green_light"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/editaadmin"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
